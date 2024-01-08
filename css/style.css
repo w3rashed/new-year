@@ -224,11 +224,12 @@ font-family: 'Merriweather', serif;
 ***********************************/
 .funtional{
     text-align: center;
-    width: 65%;
+    width: 67%;
     margin: 0 auto;
 }
 .funtional h6{
 margin-top: 120px;
+text-transform: uppercase;
 color: #070211;
 font-family: 'Inter', sans-serif;
 font-size: 24px;
@@ -247,6 +248,8 @@ font-weight: 500;
     color: rgba(7, 2, 17, 0.60);
     font-size: 20px;
     font-weight: 400;
+    font-family: 'Inter', sans-serif;
+
 }
 /* ********************************
     discount section 
@@ -262,17 +265,50 @@ font-weight: 500;
 .discount-left img{
     width: 585px;  
     align-items: center;
-    margin-left: 110px;
-}
-.discount-left{
-    
+    margin: 0 0 80px 110px;
 }
 .discount-right{
     background-image: url('../img/Rectangle\ 1.png');
     background-repeat: no-repeat;
     background-position: right top;
-    background-size: 350px;
+    background-size: 429px;
 }
 .discount-right img{ 
-    margin: 18px 200px 0 0 ;
+    margin: 55px 270px 0 0 ;
+}
+/* ********************************
+    gift section 
+***********************************/
+.gift-content{
+    width: 900px;
+}
+.gift-content h6{
+    margin-top: 120px;
+    color: #f00;
+    font-family: 'Inter', sans-serif;
+    font-size: 24px;
+    font-weight: 500;
+    text-transform: uppercase;
+}
+.gift-content h3{
+    font-family: 'Merriweather', serif;
+    color: #070211;
+    font-size: 48px;
+    font-weight: 900;
+    margin: 16px 0 22px 0;
+}
+.gift-content p{
+    color: rgba(7, 2, 17, 0.60);
+    font-family: 'Inter', sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 32px;
+    margin-bottom: 48px;
+}
+.gift-item img{
+    margin: 6px;
+    width: 32%;
+}
+.gift-item{
+    display: grid grid grid;
 }
