@@ -252,10 +252,27 @@ font-weight: 500;
     discount section 
 ***********************************/
 .discount{
+    margin-top: 64px;
     display: flex;
     background-image: url('../img/Rectangle\ 2.png');
-    po
+    background-repeat: no-repeat;
+    background-position: bottom;
+    justify-content: space-between;
+}
+.discount-left img{
+    width: 585px;  
+    align-items: center;
+    margin-left: 110px;
+}
+.discount-left{
+    
 }
 .discount-right{
     background-image: url('../img/Rectangle\ 1.png');
+    background-repeat: no-repeat;
+    background-position: right top;
+    background-size: 350px;
+}
+.discount-right img{ 
+    margin: 18px 200px 0 0 ;
 }
