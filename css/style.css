@@ -18,10 +18,16 @@ font-family: 'Merriweather', serif;
 .banner-1{
     margin-top:50px ;
     background-image: url('../img/Banner\ Image.png');
-    background-color: rgba(red, green, blue, alpha);
+    background-image: linear-gradient(180deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%),url('../img/Banner\ Image.png');
     height: 80vh;
     background-repeat: no-repeat;
     border-radius: 16px;
+    
+}
+header.banner-1 div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 .banner-1 div{
     margin: 0 300px;
@@ -73,8 +79,8 @@ font-family: 'Merriweather', serif;
     3rd banner section 
 ***********************************/
 .banner-3{
-    background-image: url('../img/Vectorrr.png');
-    
+    background-image: url('../img/Vectorrr.png'); 
+    background-image: linear-gradient(90deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%),url('../img/Vectorrr.png');
     background-repeat: no-repeat;
     display: flex;
     border-radius: 16px;
@@ -113,7 +119,7 @@ font-family: 'Merriweather', serif;
     border-style: none;
     font-weight: 700;
     text-transform: uppercase;
-    margin-bottom: 132px;
+    margin: 0 0 132px 32px;
     padding: 10px 32px;
     border: 1px solid #f00;
     border-radius: 8px;
@@ -158,4 +164,81 @@ font-family: 'Merriweather', serif;
     padding: 16px 32px;
     border-radius: 8px;
     margin-top: 48px;
+}
+/* ********************************
+    5th banner section 
+***********************************/
+.banner-5{
+    display: flex;
+    font-family: 'Inter', sans-serif;
+
+}
+.banner-5-left{
+    flex-basis: 70%;
+}
+.banner-5-left h6{
+    color: #f00;
+    font-size: 24px;
+    font-weight: 400;
+    text-transform: uppercase;
+}
+.pp {
+    color: rgba(7, 2, 17, 0.60);
+    font-size: 20px;
+    font-weight: 400;
+}
+.banner-5-left h4{
+    font-family: 'Merriweather', serif;
+    color: #070211;
+    font-size: 48px;
+    font-weight: 900;   
+    margin:16px 0 22px 0 ;
+}
+.banner-5-mid img{
+    width: 400px;
+border: 15px solid#f00;
+border-radius: 100%;
+padding: 40px;
+margin: 0 118px 0 70px;
+
+}
+.banner-5-right h4{
+    color: #f00;
+    font-size: 48px;
+    font-weight: 700;
+}
+.banner-5-right p{
+    margin: 16px 0 43px 0;
+}
+.banner-5-right img{
+    width: 140px;
+}
+/* ********************************
+    funtional section 
+***********************************/
+.funtional{
+    text-align: center;
+    width: 65%;
+    margin: 0 auto;
+}
+.funtional h6{
+margin-top: 120px;
+color: #070211;
+font-family: 'Inter', sans-serif;
+font-size: 24px;
+font-weight: 500;
+}
+.funtional span{
+    color: #f00;
+}
+.funtional h2{
+    font-family: 'Merriweather', serif;
+    font-size: 72px;
+    font-weight: 900;
+    margin: 16px 0 28px 0;
+}
+.funtional p{
+    color: rgba(7, 2, 17, 0.60);
+    font-size: 20px;
+    font-weight: 400;
 }
