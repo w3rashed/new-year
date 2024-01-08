@@ -24,7 +24,7 @@ font-family: 'Merriweather', serif;
     border-radius: 16px;
     
 }
-header.banner-1 div{
+.banner-1{
     display: flex;
     justify-content: center;
     align-items: center;
@@ -175,6 +175,9 @@ header.banner-1 div{
 }
 .banner-5-left{
     flex-basis: 70%;
+    align-self: center;
+    
+
 }
 .banner-5-left h6{
     color: #f00;
@@ -195,17 +198,20 @@ header.banner-1 div{
     margin:16px 0 22px 0 ;
 }
 .banner-5-mid img{
-    width: 400px;
-border: 15px solid#f00;
-border-radius: 100%;
-padding: 40px;
-margin: 0 118px 0 70px;
+    width: 450px;
+    border: 15px solid#f00;
+    border-radius: 100%;
+    padding: 40px;
+    margin: 0 118px 0 70px;
 
 }
 .banner-5-right h4{
     color: #f00;
     font-size: 48px;
     font-weight: 700;
+}
+.banner-5-right{
+    margin-top: 112px;
 }
 .banner-5-right p{
     margin: 16px 0 43px 0;
@@ -245,3 +251,11 @@ font-weight: 500;
 /* ********************************
     discount section 
 ***********************************/
+.discount{
+    display: flex;
+    background-image: url('../img/Rectangle\ 2.png');
+    po
+}
+.discount-right{
+    background-image: url('../img/Rectangle\ 1.png');
+}
