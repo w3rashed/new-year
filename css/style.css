@@ -283,7 +283,7 @@ font-weight: 500;
     margin: 0 0 165px 201px;
 }
 .discount-right{
-    flex-basis: 35%;
+    flex-basis: 43%;
     background-image: url('../img/Rectangle\ 1.png');
     background-repeat: no-repeat;
     background-position: right top;
@@ -291,7 +291,7 @@ font-weight: 500;
 }
 .discount-right img{ 
     width: 45%;
-    margin: 100px 280px 0 0 ;
+    margin: 100px 0 0 0 ;
 }
 /* ********************************
     gift section 
