@@ -204,7 +204,7 @@ font-family: 'Merriweather', serif;
     flex-basis: 35%;
 }
 .banner-5-mid img{
-    width: 85%;
+    width: 75%;
     border: 15px solid#f00;
     border-radius: 100%;
     padding: 40px;
@@ -218,7 +218,7 @@ font-family: 'Merriweather', serif;
 }
 .banner-5-right{
     flex-basis: 20%;
-    margin-top: 112px;
+    margin-top: 200px;
 }
 .banner-5-right p{
     margin: 16px 0 43px 0;
