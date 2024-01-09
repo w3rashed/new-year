@@ -18,10 +18,11 @@ font-family: 'Merriweather', serif;
 .banner-1{
     margin-top:50px ;
     background-image: url('../img/Banner\ Image.png');
-    background-image: linear-gradient(180deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%),url('../img/Banner\ Image.png');
+    background-image: linear-gradient(180deg, #070211 0%, rgba(7, 2, 17, 0.00) 80%),url('../img/Banner\ Image.png');
     height: 80vh;
     background-repeat: no-repeat;
     border-radius: 16px;
+    background-size: 100%;
     
 }
 .banner-1{
@@ -84,6 +85,7 @@ font-family: 'Merriweather', serif;
     background-repeat: no-repeat;
     display: flex;
     border-radius: 16px;
+    background-size: 100%;
 }
 .b3-left{
     flex-basis: 50%;
@@ -261,20 +263,23 @@ font-weight: 500;
     background-repeat: no-repeat;
     background-position: bottom;
     justify-content: space-between;
+    background-size: 100%;
 }
 .discount-left img{
-    width: 585px;  
+    width: 100%;  
     align-items: center;
-    margin: 0 0 80px 110px;
+    margin: 0 0 140px 150px;
 }
 .discount-right{
+    flex-basis: 40%;
     background-image: url('../img/Rectangle\ 1.png');
     background-repeat: no-repeat;
     background-position: right top;
-    background-size: 429px;
+    background-size: 77%;
 }
 .discount-right img{ 
-    margin: 55px 270px 0 0 ;
+    width: 45%;
+    margin: 100px 280px 0 0 ;
 }
 /* ********************************
     gift section 
@@ -313,14 +318,17 @@ font-weight: 500;
     display: grid grid grid;
 }
 /* ********************************
-    gift section 
+    subscribe section 
 ***********************************/
 .subscribe{
     margin: 120px 0;
     padding: 80px 200px;
     border-radius: 16px;
     background: rgba(255, 0, 0, 0.05);
+}
+.sub-item{
     text-align: center;
+
 }
 .subscribe img{
     width: 150px;
@@ -344,9 +352,18 @@ font-weight: 500;
 /* ********************************
     subscribe section 
 ***********************************/
-.subscribe-input input{
+.subscribe-input{
+    
+}
+.subscribe-input input {
     padding: 10px 100px;
     color: #070211;
+    border-style: none;
+}
+.subscribe-input button{
+    padding: 10px 100px;
+    background-color: #f00;
+    border-style: none;
 }
 /* ********************************
     footer section 
