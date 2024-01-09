@@ -172,11 +172,12 @@ font-family: 'Merriweather', serif;
 ***********************************/
 .banner-5{
     display: flex;
+    justify-content: space-between;
     font-family: 'Inter', sans-serif;
 
 }
 .banner-5-left{
-    flex-basis: 70%;
+    flex-basis: 35%;
     align-self: center;
     
 
@@ -199,8 +200,11 @@ font-family: 'Merriweather', serif;
     font-weight: 900;   
     margin:16px 0 22px 0 ;
 }
+.banner-5-mid{
+    flex-basis: 35%;
+}
 .banner-5-mid img{
-    width: 450px;
+    width: 85%;
     border: 15px solid#f00;
     border-radius: 100%;
     padding: 40px;
@@ -213,6 +217,7 @@ font-family: 'Merriweather', serif;
     font-weight: 700;
 }
 .banner-5-right{
+    flex-basis: 20%;
     margin-top: 112px;
 }
 .banner-5-right p{
@@ -266,7 +271,7 @@ font-weight: 500;
     background-size: 100%;
 }
 .discount-left img{
-    width: 128%;  
+    width: 146%;  
     align-items: center;
     margin: 0 0 22% 20%;
 }
@@ -314,9 +319,7 @@ font-weight: 500;
     margin: 6px;
     width: 32%;
 }
-.gift-item{
-    display: grid grid grid;
-}
+
 /* ********************************
     subscribe section 
 ***********************************/
@@ -327,6 +330,8 @@ font-weight: 500;
     background: rgba(255, 0, 0, 0.05);
 }
 .sub-item{
+    width: 55%;
+    margin: 0 auto;
     text-align: center;
 
 }
@@ -349,19 +354,36 @@ font-weight: 500;
     line-height: 32px;
     margin-bottom: 48px;
 }
+
 /* ********************************
-    subscribe section 
+    subscribe input css 
 ***********************************/
-.subscribe-input{
-    
+.subscribe-input {
+    border-radius: 50px 50px 50px 50px;
+    width: 40%;
+    margin: 0 auto;
+    padding-left: 32px;
+    background-color: #FFF;
+}
+.subscribe-inpu div{
+    display: flex;
+    justify-content: space-between;
 }
 .subscribe-input input {
-    padding: 10px 100px;
-    color: #070211;
+    font-family: 'Inter', sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+    color: #ffffff;
     border-style: none;
 }
 .subscribe-input button{
-    padding: 10px 100px;
+    font-family: 'Inter', sans-serif;
+    color: white;
+    font-size: 18px;
+    font-weight: 400;
+    border-radius: 0px 50px 50px 0;
+    margin-left: 195px;
+    padding: 15px 28px;
     background-color: #f00;
     border-style: none;
 }
