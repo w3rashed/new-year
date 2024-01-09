@@ -171,6 +171,9 @@ font-family: 'Merriweather', serif;
     border-radius: 8px;
     margin-top: 48px;
 }
+.banner-4 a button:active{
+    text-shadow: tomatoS;
+}
 /* ********************************
     5th banner section 
 ***********************************/
@@ -364,7 +367,7 @@ font-weight: 500;
 ***********************************/
 .subscribe-input {
     border-radius: 50px 50px 50px 50px;
-    width: 40%;
+    width: 654px;
     margin: 0 auto;
     padding-left: 32px;
     background-color: #FFF;
