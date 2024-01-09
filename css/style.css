@@ -31,7 +31,7 @@ font-family: 'Merriweather', serif;
     align-items: center;
 }
 .banner-1 div{
-    margin: 0 300px;
+    width: 45%;
 }
 .banner-1 h3{
     color: #FFF;
@@ -74,7 +74,7 @@ font-family: 'Merriweather', serif;
     margin-bottom: 48px;
 }
 .banner-2 img{
-    width: 803px;
+    width: 60%;
 }
 /* ********************************
     3rd banner section 
@@ -266,9 +266,9 @@ font-weight: 500;
     background-size: 100%;
 }
 .discount-left img{
-    width: 100%;  
+    width: 128%;  
     align-items: center;
-    margin: 0 0 140px 150px;
+    margin: 0 0 22% 20%;
 }
 .discount-right{
     flex-basis: 40%;
