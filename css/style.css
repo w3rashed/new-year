@@ -84,11 +84,12 @@ font-family: 'Merriweather', serif;
     background-image: linear-gradient(90deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%),url('../img/Vectorrr.png');
     background-repeat: no-repeat;
     display: flex;
+    justify-content: space-between;
     border-radius: 16px;
     background-size: 100%;
 }
 .b3-left{
-    flex-basis: 50%;
+    flex-basis: 33%;
     margin-left: 126px;
 }
 .b3-right{
