@@ -12,7 +12,7 @@ font-family: 'Merriweather', serif;
     1632/1880=85.1%
 */
 .container{
-    width: 85%;
+    max-width: 85%;
     margin: 0 auto;
 }
 /* ********************************
