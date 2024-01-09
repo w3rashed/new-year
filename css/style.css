@@ -8,6 +8,9 @@ font-family: 'Merriweather', serif;
     box-sizing: border-box;
     text-decoration: none;
 }
+/* monitor 1080/1920
+    1632/1880=85.1%
+*/
 .container{
     width: 85%;
     margin: 0 auto;
