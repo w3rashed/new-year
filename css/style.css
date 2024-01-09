@@ -278,16 +278,16 @@ font-weight: 500;
     background-size: 100%;
 }
 .discount-left img{
-    width: 146%;  
+    width: 745px;  
     align-items: center;
-    margin: 0 0 22% 20%;
+    margin: 0 0 165px 201px;
 }
 .discount-right{
-    flex-basis: 40%;
+    flex-basis: 35%;
     background-image: url('../img/Rectangle\ 1.png');
     background-repeat: no-repeat;
     background-position: right top;
-    background-size: 77%;
+    background-size: 550px;
 }
 .discount-right img{ 
     width: 45%;
